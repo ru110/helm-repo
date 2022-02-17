@@ -44,7 +44,7 @@ spec:
             cpu: 100m
             memory: 50Mi
         # sidecar agent
-        - name: jaeger-agent
+      - name: jaeger-agent
         image: jaegertracing/jaeger-agent:1.30.0
         imagePullPolicy: IfNotPresent
         ports:
